@@ -1,0 +1,30 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+tempCodeRunnerFile.py
+*.tmp
+*.log
+
+# Secrets
+.env
+.env.*
+
+# Local databases and generated datasets
+sql/*.db
+sql/*.sqlite
+sql/*.sqlite3
+data/*.xlsx
+data/*.csv
+
+# Keep an empty charts folder if needed
